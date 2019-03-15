@@ -7,3 +7,13 @@ c:\users\geoff\documents\visual studio 2013\Projects\BlackJack\BlackJack\obj\Deb
 c:\users\geoff\documents\visual studio 2013\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.Cache
 c:\users\geoff\documents\visual studio 2013\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.exe
 c:\users\geoff\documents\visual studio 2013\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+D:\$\Visual_Blackjack\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+D:\$\Visual_Blackjack\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+D:\$\Visual_Blackjack\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+D:\$\Visual_Blackjack\BlackJack\BlackJack\obj\Debug\BlackJack.BlackjackTable.resources
+D:\$\Visual_Blackjack\BlackJack\BlackJack\obj\Debug\BlackJack.DeckSelection.resources
+D:\$\Visual_Blackjack\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+D:\$\Visual_Blackjack\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+D:\$\Visual_Blackjack\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+D:\$\Visual_Blackjack\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+D:\$\Visual_Blackjack\BlackJack\BlackJack\obj\Debug\BlackJack.pdb

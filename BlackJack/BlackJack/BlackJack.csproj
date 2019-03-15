@@ -44,16 +44,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BlackjackTable.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BlackjackTable.Designer.cs">
+      <DependentUpon>BlackjackTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Blackjack_Main.cs" />
+    <Compile Include="DeckSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeckSelection.Designer.cs">
+      <DependentUpon>DeckSelection.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="BlackjackTable.resx">
+      <DependentUpon>BlackjackTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeckSelection.resx">
+      <DependentUpon>DeckSelection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -63,6 +72,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -76,6 +86,77 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\Blackjack_icon.ico" />
+    <Content Include="Resources\Blackjack_Icon.png" />
+    <Content Include="Resources\BlueFelt_Background.jpg" />
+    <Content Include="Resources\Clubs_10.png" />
+    <Content Include="Resources\Clubs_2.png" />
+    <Content Include="Resources\Clubs_3.png" />
+    <Content Include="Resources\Clubs_4.png" />
+    <Content Include="Resources\Clubs_5.png" />
+    <Content Include="Resources\Clubs_6.png" />
+    <Content Include="Resources\Clubs_7.png" />
+    <Content Include="Resources\Clubs_8.png" />
+    <Content Include="Resources\Clubs_9.png" />
+    <Content Include="Resources\Clubs_Ace.png" />
+    <Content Include="Resources\Clubs_Jack.png" />
+    <Content Include="Resources\Clubs_King.png" />
+    <Content Include="Resources\Clubs_Queen.png" />
+    <Content Include="Resources\Diamonds_10.png" />
+    <Content Include="Resources\Diamonds_2.png" />
+    <Content Include="Resources\Diamonds_3.png" />
+    <Content Include="Resources\Diamonds_4.png" />
+    <Content Include="Resources\Diamonds_5.png" />
+    <Content Include="Resources\Diamonds_6.png" />
+    <Content Include="Resources\Diamonds_7.png" />
+    <Content Include="Resources\Diamonds_8.png" />
+    <Content Include="Resources\Diamonds_9.png" />
+    <Content Include="Resources\Diamonds_Ace.png" />
+    <Content Include="Resources\Diamonds_Jack.png" />
+    <Content Include="Resources\Diamonds_King.png" />
+    <Content Include="Resources\Diamonds_Queen.png" />
+    <Content Include="Resources\EasterEgg.jpg" />
+    <Content Include="Resources\GreenFelt_Background.jpg" />
+    <Content Include="Resources\Hearts_10.png" />
+    <Content Include="Resources\Hearts_2.png" />
+    <Content Include="Resources\Hearts_3.png" />
+    <Content Include="Resources\Hearts_4.png" />
+    <Content Include="Resources\Hearts_5.png" />
+    <Content Include="Resources\Hearts_6.png" />
+    <Content Include="Resources\Hearts_7.png" />
+    <Content Include="Resources\Hearts_8.png" />
+    <Content Include="Resources\Hearts_9.png" />
+    <Content Include="Resources\Hearts_Ace.png" />
+    <Content Include="Resources\Hearts_Jack.png" />
+    <Content Include="Resources\Hearts_King.png" />
+    <Content Include="Resources\Hearts_Queen.png" />
+    <Content Include="Resources\RedFelt_Background.jpg" />
+    <Content Include="Resources\Spades_10.png" />
+    <Content Include="Resources\Spades_2.png" />
+    <Content Include="Resources\Spades_3.png" />
+    <Content Include="Resources\Spades_4.png" />
+    <Content Include="Resources\Spades_5.png" />
+    <Content Include="Resources\Spades_6.png" />
+    <Content Include="Resources\Spades_7.png" />
+    <Content Include="Resources\Spades_8.png" />
+    <Content Include="Resources\Spades_9.png" />
+    <Content Include="Resources\Spades_Ace.png" />
+    <Content Include="Resources\Spades_Jack.png" />
+    <Content Include="Resources\Spades_King.png" />
+    <Content Include="Resources\Spades_Queen.png" />
+    <Content Include="Resources\Style_1.png" />
+    <Content Include="Resources\Style_10.png" />
+    <Content Include="Resources\Style_2.png" />
+    <Content Include="Resources\Style_3.png" />
+    <Content Include="Resources\Style_4.png" />
+    <Content Include="Resources\Style_5.png" />
+    <Content Include="Resources\Style_6.png" />
+    <Content Include="Resources\Style_7.png" />
+    <Content Include="Resources\Style_8.png" />
+    <Content Include="Resources\Style_9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
